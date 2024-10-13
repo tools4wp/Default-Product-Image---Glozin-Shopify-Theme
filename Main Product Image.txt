@@ -1,0 +1,7 @@
+ Insert @ Line 85 in main-product.liquid file
+
+    {%- if product.media.size == 0 -%}
+      <div class="product-detail__media col-md-w-custom w-full">
+        <img src="ADD LINK TO IMAGE HERE" alt="ADD ALT INFO HERE">
+      </div>
+    {% endif %}
